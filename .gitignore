@@ -1,0 +1,5 @@
+old-factory/*
+cgi-bin/*
+google*.html
+.htaccess
+.ftpquota

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Cairo|Roboto');
+
+/*All Pages*/
+
+html{
+	height:100vh;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	min-height:100vh;
+}
+h2, h3{
+	font-family: 'Playfair Display', serif;
+}
+h2{
+	text-align: center;
+	margin-right: 0;
+}
+
+a {
+ color: #2A549D;
+ text-decoration: underline;
+}
+a:hover, a:focus, a:active, input:focus, input:active, textarea:focus, textarea:active {
+  border: 1px solid green;
+}
+
+/*Header*/
+h1 {
+	text-align: center;
+	padding-top: 2vh;
+	font-family: 'Playfair Display', serif;
+	margin-top: 0;
+}
+#name{
+	background-color: #D8ECF8;
+	min-height: 100px;
+	width: 100%;
+	padding: 0;
+	padding-bottom: 2vh;
+	margin:0;
+}
+#title{
+	text-decoration: none;
+	color: black;
+}
+#social{
+	text-align: center;
+}
+#first.social-icons{
+	padding-left: 0;
+}
+.social-icons{
+	display: inline-block;
+	padding-left: 5%;
+	font-size: 2em;
+}
+#menu p{
+	text-align: center;
+}
+
+/*Home Page */
+#index #top{
+	height:100vh;
+	width: 90vw;
+	padding-left:5vw;
+	padding-right:5vw;
+	display: table;
+	background-image: url('cleanblue.jpg');
+	background-size: cover;
+}
+#mainpage{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+#mainpage-info{
+	background-color: rgba(255,255,255, .7);
+	padding-top:5vh;
+	padding-bottom:5vh;
+}
+
+/*Projects page */
+.project{
+	display: inline-block;
+	max-width: 100%;
+    margin: 2%;
+    padding: 2%;
+/*    box-shadow: 5px 5px 10px silver, -5px -5px 10px silver, -5px 5px 10px silver, 5px -5px 10px silver;
+*/    vertical-align: top;
+   border: 1px solid grey;
+/*     border-radius: 5px;*/
+    background-color: white;
+}
+figure{
+	background-color: gainsboro;
+	border-radius: 5px;
+	margin:0;
+	padding:5px;
+}
+.projectls:hover, .projectls:focus, .projectls:active{
+	border:none;
+}
+
+
+.resume h3, .resume h4, .project h3, .project h4{
+	margin: 2px 0px 2px 0px;
+}
+
+#about, #projects, .resume{
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+/*Contact*/
+.anti { display:none;}
+:focus[type=text], textarea:focus {
+	background-color: lemonchiffon;
+}
+#contact{
+	margin:auto;
+	width:80%;
+}
+/*input[type=submit]{
+	width:60%;
+	text-align: center;
+	background-color: #2A549D;
+	color: white;
+	border-radius: 2px;
+	height:8vh;
+}*/
+
+@media (min-width:600px){
+	.project{
+		width: 40%;
+	}
+	#pua{
+		width:90%;
+	}
+	#about, .resume{
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+}
