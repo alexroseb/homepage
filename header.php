@@ -107,7 +107,7 @@
 
 	<div id="menu" role="navigation">
 
-		<p> <a href="about.php">About Me</a> / <a href="projects.php">Projects</a> / <a href="tech.php">Tech Experience</a> / <a href="astro.php">Astronomy Outreach Experience</a> / <a href="contact.php">Contact</a></p>
+		<p> <a href="about.php">About Me</a> / <a href="projects.php">Projects</a> / <a href="articles.php">Articles</a> / <a href="tech.php">Tech Experience</a> / <a href="astro.php">Astronomy Outreach Experience</a> / <a href="contact.php">Contact</a></p>
 
 	</div>
 
